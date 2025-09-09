@@ -135,7 +135,7 @@ body {
 }
 
 #card, #card-front, #card-inside {
-  height: 650px;
+  height: 700px;
 }
 
 @media (max-width: 768px) {
@@ -152,7 +152,7 @@ body {
   }
   
   #card, #card-front, #card-inside {
-    height: 550px;
+    height: 600px;
   }
   
   .wrap {
@@ -168,7 +168,11 @@ body {
   }
   
   #card-inside {
-    font-size: 1em;
+    font-size: 0.9em;
+  }
+  
+  .birthday-title {
+    font-size: 1.6em;
   }
   
   .wrap {
@@ -220,7 +224,7 @@ body {
   }
   
   #card, #card-front, #card-inside {
-    height: 500px;
+    height: 550px;
   }
   
   .wrap {
@@ -303,8 +307,8 @@ body {
 }
 
 #card-inside {
-  font-size: 1.2em;
-  line-height: 1.5;
+  font-size: 1.1em;
+  line-height: 1.4;
   font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #2d3748;
   font-style: normal;
@@ -315,10 +319,10 @@ body {
 
 .birthday-title {
   font-family: 'Lobster', cursive;
-  font-size: 2em;
+  font-size: 1.9em;
   color: #2d3748;
   text-align: center;
-  margin-bottom: 1.2em;
+  margin-bottom: 1.3em;
   margin-top: 0;
   font-weight: 600;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
